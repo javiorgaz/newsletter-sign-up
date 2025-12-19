@@ -19,7 +19,7 @@
     <!-- Sign-up form start -->
 
     <main class="main-container">
-      <div class="success-container hidden">
+      <div id="success" class="success-container hidden">
         <div class="success__main">
           <svg
             class="success-icon"
@@ -46,11 +46,11 @@
           </p>
         </div>
         <div class="success__footer">
-          <button class="footer__button button">Dismiss message</button>
+          <button id="dismiss" class="footer__button button">Dismiss message</button>
         </div>
       </div>
 
-      <div class="normal-container">
+      <div id="normal" class="normal-container">
         <div class="container__img-container">
           <img
             id="img"
@@ -126,15 +126,16 @@
             </li>
           </ul>
 
-          <form action="#" class="form">
+          <form action="#" class="form" novalidate>
             <p class="form__email-text">Email addres</p>
             <input
+            id="email-input"
               class="form__email-input button"
               type="email"
               placeholder="email@company.com"
             />
             <div class="form-button-container">
-              <button class="form__button button">
+              <button id = "send-button" class="form__button button">
                 Subscribe to monthly newsletter
               </button>
             </div>
