@@ -1,0 +1,24 @@
+{
+  "name": "1-newsletter-sign-up",
+  "version": "1.0.0",
+  "description": "![Design preview for the Newsletter sign-up form with success message coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiorgaz/newsletter-sign-up.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/javiorgaz/newsletter-sign-up/issues"
+  },
+  "homepage": "https://github.com/javiorgaz/newsletter-sign-up#readme",
+  "devDependencies": {
+    "sass": "^1.97.0"
+  }
+}
